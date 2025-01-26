@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Jobply</title>
+</head>
+<body>
+  <header class="page__header page-header">
+    <nav class="page-header__nav">
+
+      <a class="page-header__logo logo">
+        <img class="logo__image" src="./img/logo.png" width="172" height="57" alt="Jobply" loading="lazy">
+      </a>
+
+      <ul class="page-header__menu site-menu">
+        <li class="site-menu__item">
+          <a href="#" class="site-menu__link">Home</a>
+        </li>
+        <li class="site-menu__item">
+          <a href="#" class="site-menu__link">Categories</a>
+        </li>
+        <li class="site-menu__item">
+          <a href="#" class="site-menu__link">Service</a>
+        </li>
+        <li class="site-menu__item">
+          <a href="#" class="site-menu__link">Jobs</a>
+        </li>
+      </ul>
+
+      <button class="page-header__button button" type="button">Post a Vacancy</button>
+
+    </nav>
+  </header>
+
+  <main class="page__main page-main main-container">
+    <header class="page-main__header promo">
+      <div class="promo__wrapper">
+        <h1 class="promo__heading">Find & Apply For Your Dream Job</h1>
+        <p class="promo__text">The website is chockablock with useful features, allowing you to efficiently search and apply for roles across all sectors, experience levels and locations.</p>
+        <form class="promo__search-form">
+          <label class="visually-hidden" for="job">Job title or Keyword</label>
+          <input class="promo__search-form--input-job" type="text" name="job" id="job" placeholder="Job title or Keyword">
+          <label class="visually-hidden" for="location">Location</label>
+          <input class="promo__search-form--input-location" type="text" name="location" id="location" placeholder="Location">
+          <button class="promo__search-form--button button" type="submit">Search</button>
+        </form>
+      </div>
+      <div class="promo__pictures">
+        <img src="./img/promo-image.png" width="816" height="817" alt="users with phones">
+      </div>
+    </header>
+
+    <section class="page-main__section page-main__section--job-posts">
+      <div class="job-posts">
+        <h2 class="page-main__section--heading job-posts--heading">Popular Job Posts</h2>
+
+        <div class="job-posts--wrapper">
+          <article class="job-posts__item job-posts__item--active">
+            <h3 class="job-posts__vacancy">Sr. Product Designer</h3>
+            <div class="job-posts__messenger">
+              <img class="job-posts__messenger--logo" src="./img/logo-slack.svg" width="55" height="55" alt="logotip slack">
+              <p class="job-posts__messenger--text">Slack</p>
+            </div>
+            <img class="job-posts__icon-users" src="./img/icon-users1.png" width="88" height="40" alt="icon-users">
+            <p class="job-posts__text">Full Time - New York City</p>
+            <button class="job-posts__button job-posts__button--remote" type="button">Remote</button>
+            <button class="job-posts__button job-posts__button--anywhere" type="button">Anywhere</button>
+            <p class="job-posts__salary">$10k - $25k</p>
+          </article>
+
+          <article class="job-posts__item">
+        <h3 class="job-posts__vacancy">UX Researcher</h3>
+        <div class="job-posts__messenger">
+          <img class="job-posts__messenger--logo" src="./img/logo-google.svg" width="55" height="55" alt="logotip google">
+          <p class="job-posts__messenger--text">Google</p>
+        </div>
+        <img class="job-posts__icon-users" src="./img/icon-users2.png" width="88" height="40" alt="icon-users">
+        <p class="job-posts__text">Full Time - United States</p>
+        <button class="job-posts__button job-posts__button--remote" type="button">Remote</button>
+        <button class="job-posts__button job-posts__button--anywhere" type="button">Anywhere</button>
+        <p class="job-posts__salary">$10k - $25k</p>
+          </article>
+    
+          <article class="job-posts__item">
+        <h3 class="job-posts__vacancy">Project Manager</h3>
+        <div class="job-posts__messenger">
+          <img class="job-posts__messenger--logo" src="./img/logo-indeed.svg" width="55" height="55" alt="logotip indeed">
+          <p class="job-posts__messenger--text">Indeed</p>
+        </div>
+        <img class="job-posts__icon-users" src="./img/icon-users3.png" width="88" height="40" alt="icon-users">
+        <p class="job-posts__text">Full Time - Singapore</p>
+        <button class="job-posts__button job-posts__button--remote" type="button">Remote</button>
+        <button class="job-posts__button job-posts__button--anywhere" type="button">Anywhere</button>
+        <p class="job-posts__salary">$10k - $25k</p>
+          </article>
+        </div>
+
+        <a class="job-posts__link" href="#">View All</a>
+    </div>
+    </section>
+
+    <section class="page-main__section job-categories">
+      <h2 class="page-main__section--heading job-categories--heading">Job Categories</h2>
+
+      <ul class="job-categories__list">
+        <li class="job-categories__item">
+          <img class="job-categories-img" src="./img/icon-bank.svg" width="100" height="100" alt="icon bank">
+          <h4 class="job-categories__title">Accouting & Finance</h4>
+          <p class="job-categories__vacancy">125 Job Vacancy</p>
+        </li>
+
+        <li class="job-categories__item">
+          <img class="job-categories-img" src="./img/icon-devices.svg" width="100" height="100" alt="icon devices">
+          <h4 class="job-categories__title">UI/UX Design</h4>
+          <p class="job-categories__vacancy">52 Job Vacancy</p>
+        </li>
+
+        <li class="job-categories__item">
+          <img class="job-categories-img" src="./img/icon-google-docs.svg" width="100" height="100" alt="icon google docs">
+          <h4 class="job-categories__title">Content Writing</h4>
+          <p class="job-categories__vacancy">150 Job Vacancy</p>
+        </li>
+
+        <li class="job-categories__item">
+          <img class="job-categories-img" src="./img/icon-journal-code.svg" width="100" height="100" alt="icon journal code">
+          <h4 class="job-categories__title">Accouting & Finance</h4>
+          <p class="job-categories__vacancy">125 Job Vacancy</p>
+        </li>
+
+        <li class="job-categories__item">
+          <img class="job-categories-img" src="./img/icon-briefcase.svg" width="100" height="100" alt="icon briefcase">
+          <h4 class="job-categories__title">Digital Marketing</h4>
+          <p class="job-categories__vacancy">150 Job Vacancy</p>
+        </li>
+
+        <li class="job-categories__item">
+          <img class="job-categories-img" src="./img/icon-technology.svg" width="100" height="100" alt="icon technology">
+          <h4 class="job-categories__title">Technical Support</h4>
+          <p class="job-categories__vacancy">350 Job Vacancy</p>
+        </li>
+
+        <li class="job-categories__item">
+          <img class="job-categories-img" src="./img/icon-user-multiple.svg" width="100" height="100" alt="icon user multiple">
+          <h4 class="job-categories__title">Human Resource</h4>
+          <p class="job-categories__vacancy">35 Job Vacancy</p>
+        </li>
+
+        <li class="job-categories__item">
+          <img class="job-categories-img" src="./img/icon-design-idea.svg" width="100" height="100" alt="icon design idea">
+          <h4 class="job-categories__title">Art & Illustration</h4>
+          <p class="job-categories__vacancy">52 Job Vacancy</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="page-main__section account">
+      <div class="account__wrapper">
+        <h2 class="page-main__section--heading account__heading">Get Start New Job</h2>
+        <p class="account__text">create an account so you can get job information that suits you, and you can apply the salary your demand.</p>
+        <button class="account__button button">Create an Account</button>
+      </div>
+      <div class="account__img">
+        <img src="./img/account-man-and-woman.png" width="832" height="749" alt="man and woman with phone">
+      </div>
+    </section>
+
+    <section class="page-main__section post">
+      <div class="post__wrapper">
+        <h2 class="page-main__section--heading post__heading">Post a Job for UX Designer</h2>
+        <p class="post__text">create an account so you can get job information that suits you, and you can apply the salary your demand.</p>
+        <button class="post__button button">Post a Job</button>
+      </div>
+      <div class="post__img">
+        <img src="./img/post-workplace.png" width="570" height="750" alt="workplace">
+      </div>
+    </section>
+
+    <section class="page-main__section feedback">
+      <h2 class="page-main__section--heading feedback__section--heading">Great Feedback<br>From Candidates</h2>
+
+      <ul class="feedback__list">
+        <li class="feedback__item feedback__active">
+          <svg width="38" height="29" viewBox="0 0 38 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3.54792 26.0857C1.40208 23.8066 0.25 21.2503 0.25 17.1066C0.25 9.81488 5.36875 3.27947 12.8125 0.0482178L14.6729 2.91905C7.725 6.67739 6.36667 11.5545 5.825 14.6295C6.94375 14.0503 8.40833 13.8482 9.84375 13.9816C13.6021 14.3295 16.5646 17.4149 16.5646 21.2503C16.5646 23.1842 15.7964 25.0388 14.4289 26.4063C13.0615 27.7737 11.2068 28.542 9.27292 28.542C8.20345 28.5326 7.14653 28.3106 6.16367 27.889C5.18081 27.4673 4.29164 26.8543 3.54792 26.0857ZM24.3813 26.0857C22.2354 23.8066 21.0833 21.2503 21.0833 17.1066C21.0833 9.81488 26.2021 3.27947 33.6458 0.0482178L35.5062 2.91905C28.5583 6.67739 27.2 11.5545 26.6583 14.6295C27.7771 14.0503 29.2417 13.8482 30.6771 13.9816C34.4354 14.3295 37.3979 17.4149 37.3979 21.2503C37.3979 23.1842 36.6297 25.0388 35.2622 26.4063C33.8948 27.7737 32.0401 28.542 30.1062 28.542C29.0368 28.5326 27.9799 28.3106 26.997 27.889C26.0141 27.4673 25.125 26.8543 24.3813 26.0857Z" fill="#EE4F3C"/>
+          </svg>
+          <p class="feedback__text">Very decent services & care about my health. Really happy with his advice. Lorem Ipsum is simply dummy text of the printing and typesetting industry Very decent services & care about my health. Really happy with his advice.</p>
+          <div class="feedback__user"> 
+            <img class="feedback__user--img" src="./img/feedbac-user1.png" width="150" height="150" alt="user avatar 1">
+            <div class="feedback__user--wrapper">
+              <h3 class="feedback__heading">Maria Jannat</h3>
+              <p class="feedback__vacancy">Content Writer</p>
+              <div class="feedback__starts">
+                <img class="feedback__start" src="./img/star.svg" alt="rating 5 star" width="24" height="24">
+                <img class="feedback__start" src="./img/star.svg" alt="" width="24" height="24">
+                <img class="feedback__start" src="./img/star.svg" alt="" width="24" height="24">
+                <img class="feedback__start" src="./img/star.svg" alt="" width="24" height="24">
+                <img class="feedback__start" src="./img/star.svg" alt="" width="24" height="24">
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="feedback__item">
+          <svg width="38" height="29" viewBox="0 0 38 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3.54795 26.0857C1.40211 23.8066 0.250031 21.2503 0.250031 17.1066C0.250031 9.81488 5.36878 3.27947 12.8125 0.0482178L14.6729 2.91905C7.72503 6.67739 6.3667 11.5545 5.82503 14.6295C6.94378 14.0503 8.40836 13.8482 9.84378 13.9816C13.6021 14.3295 16.5646 17.4149 16.5646 21.2503C16.5646 23.1842 15.7964 25.0388 14.4289 26.4063C13.0615 27.7737 11.2068 28.542 9.27295 28.542C8.20348 28.5326 7.14656 28.3106 6.1637 27.889C5.18084 27.4673 4.29167 26.8543 3.54795 26.0857ZM24.3813 26.0857C22.2354 23.8066 21.0834 21.2503 21.0834 17.1066C21.0834 9.81488 26.2021 3.27947 33.6459 0.0482178L35.5063 2.91905C28.5584 6.67739 27.2 11.5545 26.6584 14.6295C27.7771 14.0503 29.2417 13.8482 30.6771 13.9816C34.4354 14.3295 37.3979 17.4149 37.3979 21.2503C37.3979 23.1842 36.6297 25.0388 35.2623 26.4063C33.8948 27.7737 32.0401 28.542 30.1063 28.542C29.0368 28.5326 27.9799 28.3106 26.997 27.889C26.0142 27.4673 25.125 26.8543 24.3813 26.0857Z" fill="#ECE1E0"/>
+          </svg>
+          <p class="feedback__text">Very decent services & care about my health. Really happy with his advice. Lorem Ipsum is simply dummy text of the printing and Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <div class="feedback__user"> 
+            <img class="feedback__user--img" src="./img/feedbac-user2.png" width="150" height="150" alt="user avatar 2">
+            <div class="feedback__user--wrapper">
+              <h3 class="feedback__heading">Mithela</h3>
+              <p class="feedback__vacancy">UI Designer</p>
+              <div class="feedback__starts">
+                <img class="feedback__start" src="./img/star.svg" alt="rating 5 star" width="24" height="24">
+                <img class="feedback__start" src="./img/star.svg" alt="" width="24" height="24">
+                <img class="feedback__start" src="./img/star.svg" alt="" width="24" height="24">
+                <img class="feedback__start" src="./img/star.svg" alt="" width="24" height="24">
+                <img class="feedback__start" src="./img/star.svg" alt="" width="24" height="24">
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="feedback__item">
+          <svg width="38" height="29" viewBox="0 0 38 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3.54795 26.0857C1.40211 23.8066 0.250031 21.2503 0.250031 17.1066C0.250031 9.81488 5.36878 3.27947 12.8125 0.0482178L14.6729 2.91905C7.72503 6.67739 6.3667 11.5545 5.82503 14.6295C6.94378 14.0503 8.40836 13.8482 9.84378 13.9816C13.6021 14.3295 16.5646 17.4149 16.5646 21.2503C16.5646 23.1842 15.7964 25.0388 14.4289 26.4063C13.0615 27.7737 11.2068 28.542 9.27295 28.542C8.20348 28.5326 7.14656 28.3106 6.1637 27.889C5.18084 27.4673 4.29167 26.8543 3.54795 26.0857ZM24.3813 26.0857C22.2354 23.8066 21.0834 21.2503 21.0834 17.1066C21.0834 9.81488 26.2021 3.27947 33.6459 0.0482178L35.5063 2.91905C28.5584 6.67739 27.2 11.5545 26.6584 14.6295C27.7771 14.0503 29.2417 13.8482 30.6771 13.9816C34.4354 14.3295 37.3979 17.4149 37.3979 21.2503C37.3979 23.1842 36.6297 25.0388 35.2623 26.4063C33.8948 27.7737 32.0401 28.542 30.1063 28.542C29.0368 28.5326 27.9799 28.3106 26.997 27.889C26.0142 27.4673 25.125 26.8543 24.3813 26.0857Z" fill="#ECE1E0"/>
+          </svg>
+          <p class="feedback__text">Very decent services & care about my health. Really happy with his advice. Lorem Ipsum is simply dummy text of the printing and typesetting industry Very decent services & care about my health. Really happy with his advice.</p>
+          <div class="feedback__user"> 
+            <img class="feedback__user--img" src="./img/feedbac-user3.png" width="150" height="150" alt="user avatar 3">
+            <div class="feedback__user--wrapper">
+              <h3 class="feedback__heading">Adam</h3>
+              <p class="feedback__vacancy">Developer</p>
+              <div class="feedback__starts">
+                <img class="feedback__start" src="./img/star.svg" alt="rating 5 star" width="24" height="24">
+                <img class="feedback__start" src="./img/star.svg" alt="" width="24" height="24">
+                <img class="feedback__start" src="./img/star.svg" alt="" width="24" height="24">
+                <img class="feedback__start" src="./img/star.svg" alt="" width="24" height="24">
+                <img class="feedback__start" src="./img/star.svg" alt="" width="24" height="24">
+              </div>
+            </div>
+          </div>
+        </li>
+
+        
+      </ul>
+      <ul class="feedback__list--dots">
+        <li>
+          <span class="feedback__dot feedback__dot--active"></span>
+        </li>
+        <li>
+          <span class="feedback__dot"></span>
+        </li>
+        <li>
+          <span class="feedback__dot"></span>
+        </li>
+        <li>
+            <span class="feedback__dot"></span>
+
+        </li>
+      </ul>
+    </section>
+
+    <section class="page-main__section subscription">
+      <div class="subscription__wrapper">
+        <h2 class="page-main__section--heading subscription__heading">Subscribe to get<br> update vacancy post</h2>
+        <form class="subscription__form">
+          <label class="visually-hidden" for="subscription-form">Email</label>
+          <input class="subscription__form--input" id="subscription-form" type="email" name="email" placeholder="infomail856@gmail.com">
+          <button class="subscription__form--button button" type="submit">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+</main>
+
+<footer class="page__footer page-footer">
+  <h2 class="visually-hidden">About website</h2>
+  <div class="page-footer-container">
+      <div class="page-footer__contacts">
+        <h3 class="visually-hidden">Contacts</h3>
+        <img class="page-footer__contacts--logo" src="./img/logo.png" width="124" height="30" alt="logotip Jobply">
+        <p class="page-footer__contacts--text">152/3 , Western Road, New York</p>
+        <a class="page-footer__contacts--tel" href="tel:+99-8569-5234">Call Us: +99-8569-5234</a>
+
+      <div class="page-footer__contacts--social social">
+      <ul class="social__list">
+        <li class="social__item">
+          <a class="social__link" href="#">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_1_895)">
+              <path d="M15 -0.0314941C6.7116 -0.0314941 -0.0327759 6.71101 -0.0327759 15.0004C-0.0327759 23.2898 6.7116 30.0323 15 30.0323C23.2885 30.0323 30.0328 23.2898 30.0328 15.0004C30.0328 6.71101 23.2885 -0.0314941 15 -0.0314941ZM15 29.031C7.26379 29.031 0.970349 22.7366 0.970349 15.0004C0.970349 7.26413 7.26379 0.969756 15 0.969756C22.7363 0.969756 29.0297 7.26413 29.0297 15.0004C29.0297 22.7366 22.7363 29.031 15 29.031Z" fill="#5D5D61"/>
+              <path d="M18.2813 6.56254H15.78C12.5944 6.53066 12.1875 8.50223 12.1875 10.636V12.1875H10.7813C10.7177 12.179 10.653 12.1853 10.5923 12.2059C10.5316 12.2264 10.4764 12.2607 10.431 12.3061C10.3857 12.3514 10.3514 12.4066 10.3309 12.4673C10.3103 12.5281 10.304 12.5927 10.3125 12.6563V15.4688C10.304 15.5323 10.3103 15.597 10.3309 15.6577C10.3514 15.7185 10.3857 15.7737 10.431 15.819C10.4764 15.8644 10.5316 15.8986 10.5923 15.9192C10.653 15.9398 10.7177 15.946 10.7813 15.9375H12.1875V22.9688C12.1797 23.0325 12.1865 23.0971 12.2075 23.1577C12.2285 23.2183 12.2631 23.2734 12.3086 23.3186C12.3541 23.3638 12.4093 23.398 12.47 23.4187C12.5308 23.4393 12.5954 23.4457 12.6591 23.4375H15.5231C15.7997 23.4694 16.0238 23.2453 15.9356 22.9688L15.9375 15.9375H18.2813C18.3448 15.946 18.4095 15.9398 18.4702 15.9192C18.531 15.8986 18.5862 15.8644 18.6315 15.819C18.6768 15.7737 18.7111 15.7185 18.7317 15.6577C18.7522 15.597 18.7585 15.5323 18.75 15.4688V12.6563C18.7585 12.5927 18.7522 12.5281 18.7317 12.4673C18.7111 12.4066 18.6768 12.3514 18.6315 12.3061C18.5862 12.2607 18.531 12.2264 18.4702 12.2059C18.4095 12.1853 18.3448 12.179 18.2813 12.1875H15.9347L15.9375 10.7813C16.0284 10.1822 16.0284 10.2797 16.5844 10.3125H18.2616C18.3919 10.2835 18.5306 10.2994 18.6281 10.2047C18.7256 10.11 18.7819 9.98066 18.7491 9.84379V7.03129C18.7577 6.96778 18.7516 6.90313 18.7312 6.84238C18.7107 6.78163 18.6765 6.72642 18.6313 6.68105C18.586 6.63568 18.5308 6.60138 18.4701 6.58083C18.4094 6.56027 18.3448 6.55401 18.2813 6.56254ZM17.7797 9.32254L16.6041 9.27754C15.1481 9.27754 15.0263 10.0678 15.0263 10.8769L15.0225 12.6544C15.0224 12.7202 15.0352 12.7854 15.0603 12.8463C15.0855 12.9071 15.1223 12.9624 15.1688 13.009C15.2153 13.0556 15.2705 13.0926 15.3313 13.1178C15.3921 13.143 15.4573 13.156 15.5231 13.156H17.8125V14.9672H15.525C15.3922 14.9672 15.2647 15.0199 15.1707 15.1138C15.0766 15.2077 15.0237 15.335 15.0234 15.4678L15.0225 22.5H13.125V15.4688C13.125 15.1922 12.9366 14.9682 12.6591 14.9682H11.25V13.1569H12.6591C12.7249 13.157 12.79 13.1441 12.8508 13.1191C12.9116 13.094 12.9669 13.0571 13.0134 13.0107C13.1072 12.916 13.1241 12.7885 13.1241 12.6553V10.635C13.1241 8.53316 13.5488 7.53191 15.7791 7.53191H17.7788V9.32254H17.7797Z" fill="#5D5D61"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_1_895">
+              <rect width="30" height="30" fill="white"/>
+              </clipPath>
+              </defs>
+            </svg>                
+          </a>
+        </li>
+
+        <li class="social__item">
+          <a class="social__link" href="#">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_1_899)">
+              <path d="M15 -0.0314941C6.71154 -0.0314941 -0.0328369 6.71101 -0.0328369 15.0004C-0.0328369 23.2898 6.71154 30.0323 15 30.0323C23.2884 30.0323 30.0328 23.2898 30.0328 15.0004C30.0328 6.71101 23.2884 -0.0314941 15 -0.0314941ZM15 29.031C7.26373 29.031 0.970288 22.7366 0.970288 15.0004C0.970288 7.26413 7.26373 0.969756 15 0.969756C22.7362 0.969756 29.0297 7.26413 29.0297 15.0004C29.0297 22.7366 22.7362 29.031 15 29.031Z" fill="#EE4F3C"/>
+              <path d="M23.2443 10.356C23.3483 10.1635 23.434 9.96169 23.5003 9.75319C23.5309 9.65648 23.5316 9.55273 23.502 9.45566C23.4725 9.35859 23.4143 9.27274 23.335 9.20947C23.2556 9.1462 23.159 9.10847 23.0578 9.10127C22.9566 9.09407 22.8556 9.11773 22.7681 9.16913C22.2877 9.45451 21.7677 9.66713 21.225 9.80007C20.5662 9.20548 19.7105 8.87586 18.8231 8.87476C18.3409 8.87513 17.8638 8.97285 17.4204 9.16206C16.9769 9.35128 16.5762 9.62809 16.2423 9.9759C15.9085 10.3237 15.6482 10.7354 15.4773 11.1862C15.3063 11.637 15.2282 12.1177 15.2475 12.5994C13.139 12.334 11.2137 11.2671 9.8709 9.62007C9.81945 9.55767 9.7537 9.50861 9.67923 9.47706C9.60477 9.44551 9.52379 9.4324 9.44317 9.43884C9.36256 9.44528 9.28468 9.47109 9.21617 9.51406C9.14766 9.55704 9.09054 9.61592 9.04965 9.68569C8.74217 10.2134 8.57505 10.8112 8.56421 11.4219C8.55338 12.0325 8.69921 12.6358 8.98778 13.1741C8.917 13.1861 8.84901 13.2109 8.78715 13.2473C8.71135 13.2956 8.64894 13.3622 8.60569 13.441C8.56243 13.5199 8.53972 13.6083 8.53965 13.6982C8.53965 14.7623 9.01309 15.7391 9.77621 16.4029L9.7434 16.4357C9.68579 16.5009 9.64615 16.5799 9.6284 16.6651C9.61064 16.7502 9.61538 16.8386 9.64215 16.9213C9.80128 17.4177 10.067 17.8734 10.4207 18.2564C10.7743 18.6394 11.2074 18.9404 11.6897 19.1385C10.6993 19.6216 9.59092 19.8101 8.49653 19.6813C8.38403 19.6699 8.27091 19.696 8.17489 19.7557C8.07886 19.8155 8.00536 19.9053 7.9659 20.0113C7.92801 20.1181 7.92729 20.2345 7.96388 20.3417C8.00047 20.4489 8.07221 20.5406 8.16746 20.6019C9.65529 21.5568 11.3861 22.0641 13.154 22.0635C18.9478 22.0635 22.4109 17.3573 22.4109 12.8076L22.41 12.6538C22.9715 12.2155 23.4592 11.6901 23.8546 11.0976C23.9145 11.008 23.944 10.9015 23.9386 10.7939C23.9333 10.6863 23.8934 10.5833 23.825 10.5001C23.7565 10.4169 23.6631 10.3579 23.5585 10.332C23.4539 10.3061 23.3438 10.3145 23.2443 10.356ZM21.6084 12.0013C21.5404 12.0502 21.4857 12.1154 21.4493 12.1909C21.413 12.2664 21.3961 12.3498 21.4003 12.4335C21.4059 12.5573 21.4087 12.6829 21.4087 12.8066C21.4087 16.8641 18.3215 21.0613 13.155 21.0613C12.2335 21.0617 11.3185 20.9071 10.4484 20.6038C11.4905 20.4041 12.4695 19.9572 13.3031 19.3007C13.3842 19.2367 13.4436 19.1492 13.4732 19.0502C13.5027 18.9512 13.5009 18.8455 13.4681 18.7475C13.4353 18.6495 13.373 18.564 13.2898 18.5028C13.2065 18.4416 13.1064 18.4076 13.0031 18.4054C12.5989 18.3977 12.2021 18.295 11.8448 18.1058C11.4875 17.9166 11.1797 17.646 10.9462 17.316C11.1834 17.3001 11.4159 17.2607 11.6418 17.1998C11.7512 17.1705 11.8474 17.105 11.9147 17.0141C11.9821 16.9231 12.0166 16.812 12.0127 16.6988C12.0088 16.5857 11.9667 16.4772 11.8932 16.3911C11.8197 16.305 11.7192 16.2464 11.6081 16.2248C11.1515 16.1319 10.7288 15.9166 10.3852 15.6021C10.0416 15.2875 9.7899 14.8854 9.65715 14.4388C9.90653 14.5016 10.1625 14.5382 10.4184 14.5466C10.6387 14.5457 10.8431 14.4107 10.9115 14.1988C10.98 13.9869 10.8993 13.7535 10.7128 13.6298C10.2717 13.3359 9.93201 12.913 9.74022 12.4188C9.54844 11.9247 9.51386 11.3834 9.64121 10.8688C11.2697 12.5397 13.4686 13.5347 15.7987 13.6551C15.9637 13.656 16.1081 13.5969 16.2084 13.476C16.3087 13.3551 16.3471 13.1948 16.3115 13.041C16.1833 12.4888 16.2407 11.9098 16.4747 11.3935C16.7087 10.8771 17.1064 10.4524 17.6062 10.1849C18.106 9.91735 18.68 9.82202 19.2395 9.91363C19.7989 10.0052 20.3125 10.2787 20.7009 10.6916C20.7591 10.7537 20.8322 10.8 20.9132 10.8261C20.9942 10.8522 21.0805 10.8572 21.164 10.8407C21.3187 10.8098 21.4715 10.7741 21.6225 10.7329C21.5544 10.7838 21.4837 10.8311 21.4106 10.8744C21.3134 10.934 21.2393 11.0249 21.2007 11.1321C21.1621 11.2394 21.1611 11.3566 21.198 11.4645C21.2349 11.5724 21.3075 11.6644 21.4037 11.7256C21.5 11.7867 21.6141 11.8132 21.7275 11.8007L21.8981 11.7791C21.8041 11.8565 21.7075 11.9306 21.6084 12.0013Z" fill="#EE4F3C"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_1_899">
+              <rect width="30" height="30" fill="white"/>
+              </clipPath>
+              </defs>
+            </svg>                               
+          </a>
+        </li>
+
+        <li class="social__item">
+          <a class="social__link" href="#">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_1_903)">
+              <path d="M18.2953 11.2056C17.6597 11.2056 17.1891 11.3659 16.8206 11.5684C16.7616 11.3584 16.5675 11.2046 16.3387 11.2506H13.5412C13.2647 11.2046 13.0406 11.4287 13.1259 11.7193V22.0318C13.0406 22.2943 13.2647 22.5193 13.5412 22.5006H16.3387C16.6153 22.5193 16.8394 22.2943 16.8394 22.0178L16.8384 15.7853C16.8375 15.7824 16.8272 15.4843 17.0156 15.279C17.1666 15.1159 17.4262 15.0324 17.7853 15.0324C18.3834 15.0324 18.6497 15.2771 18.7491 15.8246V22.0178C18.6506 22.2943 18.8747 22.5193 19.1512 22.5006H22.0997C22.3762 22.5193 22.6003 22.2943 22.5009 22.0178V15.6165C22.5994 12.3615 20.2809 11.2056 18.2953 11.2056ZM21.5981 21.5631H19.6519V15.8246C19.6519 14.7174 18.9366 14.0312 17.7862 14.0312C17.1356 14.0312 16.6294 14.2224 16.2806 14.5993C15.7959 15.1243 15.8334 15.7899 15.9375 15.9381V21.5631H14.0419V12.2068H15.8381V12.5218C15.8374 12.6157 15.8631 12.7078 15.9124 12.7877C15.9617 12.8675 16.0325 12.9318 16.1167 12.9733C16.2009 13.0147 16.2951 13.0315 16.3884 13.0218C16.4818 13.0121 16.5705 12.9762 16.6444 12.9184L16.7756 12.8171C17.1553 12.5181 17.5481 12.2078 18.2962 12.2078C19.0706 12.2078 21.5991 12.4543 21.5991 15.6174V21.5631H21.5981Z" fill="#5D5D61"/>
+              <path d="M10.3125 6.53101C9.26061 6.53101 8.40561 7.38601 8.40561 8.43788C8.40561 9.48976 9.26061 10.3448 10.3125 10.3448C11.3644 10.3448 12.2194 9.48976 12.2194 8.43788C12.2194 7.38601 11.3644 6.53101 10.3125 6.53101ZM10.3125 9.34351C9.81373 9.34351 9.40686 8.93663 9.40686 8.43788C9.40686 7.93913 9.81373 7.53226 10.3125 7.53226C10.8112 7.53226 11.2181 7.93913 11.2181 8.43788C11.2181 8.93663 10.8112 9.34351 10.3125 9.34351Z" fill="#5D5D61"/>
+              <path d="M11.6512 11.2041H8.86873C8.59216 11.2041 8.3681 11.4282 8.43748 11.7188V22.0313C8.3681 22.2938 8.59216 22.5188 8.86873 22.5H11.6512C11.9278 22.5188 12.1518 22.2938 12.1518 22.0172V11.7047C12.1518 11.572 12.0991 11.4446 12.0052 11.3507C11.9113 11.2568 11.784 11.2041 11.6512 11.2041ZM11.25 21.5625H9.36935V12.2063H11.25V21.5625Z" fill="#5D5D61"/>
+              <path d="M15 -0.0314941C6.71061 -0.0314941 -0.0318909 6.71101 -0.0318909 15.0004C-0.0318909 23.2898 6.71061 30.0323 15 30.0323C23.2894 30.0323 30.0319 23.2898 30.0319 15.0004C30.0319 6.71101 23.2894 -0.0314941 15 -0.0314941ZM15 29.031C7.26373 29.031 0.969359 22.7366 0.969359 15.0004C0.969359 7.26413 7.26373 0.969756 15 0.969756C22.7362 0.969756 29.0306 7.26413 29.0306 15.0004C29.0306 22.7366 22.7362 29.031 15 29.031Z" fill="#5D5D61"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_1_903">
+              <rect width="30" height="30" fill="white"/>
+              </clipPath>
+              </defs>
+            </svg>                                               
+          </a>
+        </li>
+
+      </ul>
+      </div>
+      </div>
+
+      <div class="page-footer__explore">
+      <h3 class="page-footer__explore--heading">Explore</h3>
+      <ul class="page-footer__explore--list">
+        <li class="page-footer__explore--item">
+          <a class="page-footer__explore--link" href="#">Featured Job</a>
+        </li>
+        <li class="page-footer__explore--item">
+          <a class="page-footer__explore--link" href="#">Recent Job Post</a>
+        </li>
+        <li class="page-footer__explore--item">
+          <a class="page-footer__explore--link" href="#">Total Candidates</a>
+        </li>
+        <li class="page-footer__explore--item">
+          <a class="page-footer__explore--link" href="#">Support</a>
+        </li>
+      </ul>
+      </div>
+
+      <div class="page-footer__useful-link">
+      <h3 class="page-footer__useful-link--heading">Useful Link</h3>
+      <ul class="page-footer__useful-link--list">
+        <li class="page-footer__useful-link--item">
+          <a class="page-footer__useful-link--link" href="#">About Us</a>
+        </li>
+        <li class="page-footer__useful-link--item">
+          <a class="page-footer__useful-link--link" href="#">Blog</a>
+        </li>
+        <li class="page-footer__useful-link--item">
+          <a class="page-footer__useful-link--link" href="#">Company</a>
+        </li>
+        <li class="page-footer__useful-link--item">
+          <a class="page-footer__useful-link--link" href="#">Contact Us</a>
+        </li>
+      </ul>
+      </div>
+
+      <div class="page-footer__latest-news latest-news">
+      <h3 class="latest-news__heading">Latest News</h3>
+      <div class="latest-news__wrapper">
+        <p class="latest-news__title">Understanding the Cybersecurity Landscape in 2021</p>
+        <p class="latest-news__data">21 June, 2021</p>
+        <img class="latest-news__img" src="./img/news-1.png" width="70" height="70" alt="news 1">
+      </div>
+
+      <div class="latest-news__wrapper">
+        <p class="latest-news__title">How to Design for Maximum Product Trust</p>
+        <p class="latest-news__data">21 June, 2021</p>
+        <img class="latest-news__img" src="./img/news-2.png" width="70" height="70" alt="news 2">
+    </div>
+
+      </div>
+  </div>
+  <p class="page-footer__text">Copyright 2021, All right reserved</p>
+</footer>
+</body>
+</html>
